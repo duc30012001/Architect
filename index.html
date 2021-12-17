@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/2048px-User_icon_2.svg.png">
     <title>Architect</title>
 </head>
 <body>
@@ -14,19 +16,132 @@
             <li> <span>BR</span> Architects</li>
         </ul>
         <ul class="infor">
-            <li class="hover">Projects</li>
-            <li class="hover">About</li>
-            <li class="hover">Contact</li>
+            <li class="hover">
+                <a href="#projects">Projects</a> 
+            </li>
+            <li class="hover">
+                <a href="#about">About</a> 
+            </li>
+            <li class="hover">
+                <a href="#contact">Contact</a> 
+            </li>
         </ul>
     </div>
-
     <!-- Branch image -->
-    <div class="branch-img">
+    <div class="branch-img grid">
         <img src="./img/architect.jpg" alt="">
         <div class="branch-name">
             <div class="branch-logo font-seoui">BR</div>
             <div class="branch-type">Architects</div>
         </div>
     </div>
+
+    <!-- Container -->
+    <div class="container">      
+        <!-- Projects -->
+        <div id="projects" class="projects">
+            <div class="heading">
+                <span class="font-seoui">Projects</span>
+            </div>
+            <div class="catalog grid__row">
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house5.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Summer House</span>
+                </div>
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house2.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Brick House</span>
+                </div>
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house3.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Renovated</span>
+                </div>
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house4.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Barn House</span>
+                </div>
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house2.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Brick House</span>
+                </div>
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house5.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Summer House</span>
+                </div>
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house4.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Barn House</span>
+                </div>
+                <div class="catalog__project grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/house3.jpg" alt="Summer House">
+                    <span class="catalog__project-Name btn">Renovated</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- About --> 
+        <div id="about" class="about">
+            <div class="heading">
+                <span class="font-seoui">About</span>
+            </div>
+            <div class="about__description">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="members grid__row">
+                <div class="member grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/team2.jpg" alt="John Doe">
+                    <h3 class="member-name">John Doe</h3>
+                    <div class="member-position">CEO & Founder</div>
+                    <div class="member-detail">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                    <div class="member-contact">Contact</div>
+                </div>
+                <div class="member grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/team1.jpg" alt="John Doe">
+                    <h3 class="member-name">Jane Doe</h3>
+                    <div class="member-position">Architect</div>
+                    <div class="member-detail">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                    <div class="member-contact">Contact</div>
+                </div>
+                <div class="member grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/team3.jpg" alt="John Doe">
+                    <h3 class="member-name">Mike Ross</h3>
+                    <div class="member-position">Architect</div>
+                    <div class="member-detail">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                    <div class="member-contact">Contact</div>
+                </div>
+                <div class="member grid__column-4 col-respon">
+                    <img class="col-4-imgs" src="./img/team4.jpg" alt="John Doe">
+                    <h3 class="member-name">Dan Star</h3>
+                    <div class="member-position">Architect</div>
+                    <div class="member-detail">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</div>
+                    <div class="member-contact">Contact</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div id="contact" class="contact">
+            <div class="heading">Contact</div>
+            <span>Lets get in touch and talk about your next project.</span>
+            <form action="" class="grid__row">
+                <input type="text" class="form-input grid__column-1" placeholder="Name" required>
+                <input type="email" class="form-input grid__column-1" placeholder="Email" required>
+                <input type="text" class="form-input grid__column-1" placeholder="Subject" required>
+                <input type="text" class="form-input grid__column-1" placeholder="Comment" required>
+                <input type="submit" value="SEND MESSAGE" class="btn">
+            </form>
+        </div>
+
+        <!-- Map -->
+        <div class="map grid__row">
+            <img src="./img/map.jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Powered by <a href="https://www.facebook.com/vietduc3001/">Viet Duc</a>
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,224 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Verdana';
+    font-size: 15px;
+}
+
+.font-seoui {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hover:hover {
+    background-color: rgb(214, 212, 212);
+    cursor: pointer;
+}
+
+.btn {
+    display: block;
+    padding: 8px 16px;
+    line-height: 24px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Nav bar */
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 16px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    letter-spacing: 4px;
+    height: 55px;
+    align-items: center;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.nav-bar .branch {
+    display: flex;
+    padding: 8px 16px;
+    list-style: none; 
+}
+
+.branch span {
+    font-weight: 700;
+}
+
+.nav-bar .infor {
+    display: flex;
+    list-style: none;
+}
+
+.infor li {
+    padding: 8px 16px;
+}
+
+.infor li a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Branch image */
+.branch-img {
+    position: relative;
+    /* top: 55px; */
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.branch-img img {
+    width: 100%;
+    max-width: 1500px;
+}
+
+.branch-name {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    display: flex;
+    color: white;
+    font-size: 36px;
+    transform: translate(50%);
+    line-height: 60px;
+    letter-spacing: 4px;
+}
+
+.branch-logo {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 64px;
+    width: 86px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.branch-type {
+   padding-left: 16px;
+   font-weight: 100;
+}
+
+/* Container */
+.container {
+    margin: 8px 32px;
+}
+
+/* Projects */
+
+.heading {
+    padding-top: 76px;
+    margin-bottom: 46px;
+    font-size: 24px;
+}
+
+.catalog {
+    position: relative;
+    padding-top: 14px;
+}
+
+.catalog__project {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.catalog__project-Name {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    
+}
+
+/* About */
+.about__description {
+    margin-bottom: 50px;
+    line-height: 1.5;
+}
+
+.member {
+    filter: grayscale(0.7);
+    margin: 16px 0;
+}
+
+.member-name {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.member-position {
+    margin: 15px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.member-detail {
+    margin: 15px 0;
+}
+
+.member-contact {
+    padding: 8px 16px;
+    text-align: center;
+    background-color: #F1F1F1;
+}
+
+.member-contact:hover {
+    background-color: #CCCCCC;
+    cursor: pointer;
+}
+
+/* Contact */
+.contact span {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.form-input {
+    padding: 8px 16px;
+    margin: 8px 0;
+    border: 1px solid #CCCCCC;
+    line-height: 1.5;
+    font-size: 15px;
+}
+
+.contact .btn {
+    border: none;
+    margin: 25px 0;
+    font-size: 15px;
+}
+
+.contact .btn:hover {
+    background-color: #CCCCCC;
+    color: #000;
+    cursor: pointer;
+}
+
+/* Map */
+.map {
+    margin-top: 22px;
+}
+.map img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    display: block;
+    height: 80px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+}
